@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+:root{
+    --background-color:hsl(216, 79%, 68%);
+    --font-color:white;
+    --background-color-hover:hsl(216, 79%, 63%);
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    background-color: var(--background-color);
+    margin: auto;
+    display: block;
+    /* max-width: 40%; */
+    border-radius: 12px;
+    padding: 4rem 0;
+}
+.center{
+    text-align: center;
+}
+#text-input{
+    padding: 0.5rem 0.5rem;
+    border-color: blue;
+    outline: none;
+    border-radius: 12px;
+}
+#date-input{
+    padding: 0.4rem 1.4rem;
+    margin: 1rem 0;
+    border-color: blue;
+    outline: none;
+    border-radius: 12px;
+}
+#calculate-btn{
+    padding: 0.5rem 0.8rem;
+    cursor: pointer;
+    background-color: var(--background-color);
+    color: var(--font-color);
+    border-radius: 12px;
+    border: 1px solid black;
+    
+}
+#calculate-btn:hover{
+    background-color: var(--background-color-hover);
+}
